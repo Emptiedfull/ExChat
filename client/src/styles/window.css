@@ -1,0 +1,76 @@
+.Window-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  padding: 0.5rem 1rem;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.Window{
+    height: 100vh;
+}
+
+.Window-body{
+    display: flex;
+   
+    flex-direction: row;
+    height: 90%;
+}
+
+.Sidebar{
+    width: 20%;
+    background-color: aquamarine;
+}
+
+.Chat{
+    width: 80%;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Messages{
+    padding: 0.5rem;
+    height: 92%;
+    display: flex;
+    flex-direction: column;
+    max-height: 92%;
+    background-color: azure;
+    overflow-y: auto;
+
+}
+
+.input{
+    height: 8%;
+    background-color: #f0f0f0;
+    display: flex;
+
+}
+
+.input input{
+    width: 80%;
+    height: 100%;
+    border: none;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+    outline: none;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.input button{
+    width: 20%;
+    height: 100%;
+    border: none;
+    background-color: #f0f0f0;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.input button:hover {
+    background-color: #e0e0e0;
+
+}
